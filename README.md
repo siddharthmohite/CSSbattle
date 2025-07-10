@@ -2,4 +2,5 @@
 
 ## 9th July
 
-[9th July 2025](/9thjuly.png)
+//Display image instead of link
+![9th July 2025](9thjuly.png)
