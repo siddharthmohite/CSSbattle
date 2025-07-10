@@ -1,0 +1,63 @@
+<div class="container">
+  <div class="inside-container-row-1">
+    <div class="div1"></div>
+    <div class="div2"></div>
+    <div class="div3"></div>
+  </div>
+  <div class="inside-container-row-2">
+    <div class="div1-1"></div>
+    <div class="div2-1">
+      <div class="div2-1a"></div>
+    </div>
+    <div class="div3-1"></div>  
+  </div>
+    <div class="inside-container-row-1">
+      <div class="div1"></div>
+      <div class="div2"></div>
+      <div class="div3"></div>
+  </div>
+</div> 
+<style>
+  body{
+    margin:0;
+  }
+  .container{
+    display:flex;
+    flex-direction:column;
+  }
+
+  .inside-container-row-1, .inside-container-row-2{
+    display:flex;
+    flex-direction:row;
+  }
+  
+  .div1, .div3 {
+    width: 165px;
+    height: 110px;
+    background-color:#2E312B;
+  }
+  .div2 {
+    width: 82px;
+    height: 110px;
+    background-color: #D9D9D9;
+  }
+  
+  .div1-1, .div3-1{
+    width: 160px;
+    height: 80px;
+    background-color:#D9D9D9;
+  }
+  .div2-1{
+    width:80px;
+    height:80px;
+    background-color:#7AA70A;
+    align-items:center;
+    justify-content:center;
+    display:flex;
+  }
+  .div2-1a{
+    width:40px;
+    height:40px;
+    background-color:#2E312B;
+  }
+</style>
